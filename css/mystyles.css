@@ -17,10 +17,17 @@
 }
 
 .jumbotron {
-    padding:10px 30px 10px 30px;
+    /*padding:10px 30px 10px 30px;
     margin:0px auto;
     background: #928d8b ;
-    color:floralwhite;
+    color:floralwhite;*/
+    background-image: url("../images/justitia_preview_crop_wide.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+
+.jumbotron h1{
+    color: #442511;
 }
 
 address{
@@ -35,14 +42,15 @@ body{
 }
 
 .navbar-inverse {
-     background: #373534;
+     /*background: #373534;*/
+     background: #442511;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background: #000000;
+    background: #210f04;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
