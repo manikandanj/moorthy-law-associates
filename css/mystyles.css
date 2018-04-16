@@ -1,3 +1,10 @@
+.logo{
+  height:120px;
+  width:460px;
+  /*width:365px;
+  height:75px;*/
+}
+
 .row-header{
     margin:0px auto;
     padding:0px auto;
@@ -11,7 +18,7 @@
 }
 
 .row-footer{
-    background-color: #AfAfAf;
+    background-color: #f5e2d6;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -24,6 +31,7 @@
     background-image: url("../images/justitia_preview_crop_wide.jpg");
     background-size: cover;
     height: 50vh;
+    margin-top: 80px;
 }
 
 .jumbotron h1{
@@ -40,6 +48,21 @@ body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
+
+.navbar-nav > li > a, .navbar-brand {
+    /*padding-top:50px !important;*/
+    /*padding-bottom:90px !important;*/
+    margin-bottom: 84px;
+    /*height: 50px;*/
+}
+
+/*.navbar {min-height:30px !important;}
+
+.navbar-toggle {
+     padding: 0 0;
+     margin-top: 7px;
+     margin-bottom: 0;
+}*/
 
 .navbar-inverse {
      /*background: #373534;*/
@@ -74,4 +97,32 @@ body{
   margin-left: 30px;
   line-height: 160%;
   font-size: 14pt;
+}
+
+.team img{
+  height: 200px;
+  width: 200px;
+}
+
+.team h4{
+  text-align: center;
+}
+
+.team .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.carousel {
+    background:#8f4f24;
+    font-size: 14pt;
+}
+.carousel .item {
+  height: 250px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
